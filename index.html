@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+    <style>
+        .mainBox{
+            height: 300px;
+            width: 300px;
+       text-align: center;
+        }
+        .smallBox{
+            border: 2px solid black;
+            background-color: white;
+            height: 100px;
+            width: 100px;
+        }
+        .group{
+            float: left;
+        }
+    </style>
+</head>
+<body onload="reset()">
+    <div class="main">
+<div class="group">
+<div class="smallBox" id="box1" onclick="change2Green('box1')"></div>
+<div class="smallBox" id="box2" onclick="change2Green('box2')"></div>
+<div class="smallBox" id="box3" onclick="change2Green('box3')"></div>
+</div>
+<div class="group">
+<div class="smallBox" id="box4" onclick="change2Green('box4')"></div>
+<div class="smallBox" id="box5" ></div>
+<div class="smallBox" id="box6" onclick="change2Green('box6')"></div>
+</div>
+<div class="group">
+<div class="smallBox" id="box7" onclick="change2Green('box7')"></div>
+<div class="smallBox" id="box8" onclick="change2Green('box8')"></div>
+<div class="smallBox" id="box9" onclick="change2Green('box9')"></div>
+</div>
+    </div>
+    
+</body>
+
+</html>
